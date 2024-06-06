@@ -4,6 +4,8 @@ Notable changes to Nystrom's specification are:
 - use of `:` instead of `<` for inheritance
 - the `print` statement being replaced by two native functions, `print()` and `println`
 - presence of the `readln` function
+
+Check out [Crafting Interpreters](http://craftinginterpreters.com)!
 ## Example code
 ```lox
 class Foo {
@@ -17,5 +19,3 @@ x.t = "se";
 x.ee("aa");
 
 ```
----
-This implementation is rather slow.
