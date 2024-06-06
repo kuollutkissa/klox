@@ -60,6 +60,6 @@ fun error(token: Token, message: String) {
     }
 }
 fun runtimeError(error: RuntimeError) {
-    System.err.println("${error.message}\n[${error.token.line}]");
-    hadRuntimeError = true;
+    System.err.println("${error.message}\n[${error.token.line}]")
+    hadRuntimeError = true
 }
